@@ -18,7 +18,7 @@ public class PruebaFahrenheitCelsius {
         utilizar sus metodos
         */
         Scanner s = new Scanner(System.in); double f,c; FahrenheitCelsius fc = new FahrenheitCelsius();
-        boolean salir = false; byte opcion; int cock;
+        boolean salir = false; byte opcion;
         
         /*
         Primero, hago un bucle while para decirle: mientras "salir" tenga un valor diferente
@@ -56,7 +56,7 @@ public class PruebaFahrenheitCelsius {
                          System.out.println("Ingrese el valor");
                          c= s.nextDouble();
                          System.out.println("El resultado es " + fc.calcularCaF(c)+ " Fahrenheit");
-                         break;
+                         break; 
                    case 3:
                        salir = true;
                        break;
